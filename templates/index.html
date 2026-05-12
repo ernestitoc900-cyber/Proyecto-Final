@@ -2,22 +2,24 @@
 <html>
     <head>
         <title>Proyecto final</title>
-        <h1>Bienvenido a la cafeteria</h1>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
     </head>
     <body>
-        <form>
+        <div class="contenedor">
+            <form>
+            <h1>Bienvenido a la cafeteria</h1>
 
+                <label>Donitas $25</label>
+                <button type="button" class="boton-formulario">Agregar</button>
+                <label>Cocacola $26</label>
+                <button type="button" class="boton-formulario">Agregar</button>
+                <label>Sandwich $33</label>
+                <button type="button" class="boton-formulario">Agregar</button>
+                <label>chicles $12</label>
+                <button type="button" class="boton-formulario">Agregar</button>
 
-            <label>Donitas $25</label>
-            <button type="button" class="boton-donitas">Agregar</button>
-            <label>Cocacola $26</label>
-            <button type="button" class="boton-soda">Agregar</button>
-            <label>Sandwich $33</label>
-            <button type="button" class="boton-sandwich">Agregar</button>
-            <label>chicles $12</label>
-            <button type="button" class="boton-chicles">Agregar</button>
-
-        </form>
+            </form>
+        </div>
     </body>
 
 
