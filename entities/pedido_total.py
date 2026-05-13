@@ -1,4 +1,4 @@
-class PedidoTotal:
+class Pedido_total:
     Iva = 0.16
     def __init__(self, cliente: str, productos: list):
         self.cliente = cliente
